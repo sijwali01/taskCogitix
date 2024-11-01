@@ -1,0 +1,56 @@
+.main-container , .sidenav {
+  height: 100vh;
+  overflow-y: auto; 
+}
+
+.sidenav , .main-container{
+scrollbar-width: thin;
+scrollbar-color: #bbd5f2 #eaeaea;
+}
+
+
+.container-fluid {
+padding: 20px;
+}
+
+.sidenav {
+background-color: #f8f9fa;
+border-right: 1px solid #dee2e6;
+padding: 15px;
+height: 100vh; 
+}
+
+.episode-item {
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.episode-item:hover {
+background-color: #e2e6ea;
+}
+
+.main-container {
+padding: 15px;
+}
+
+.character-card {
+transition: transform 0.3s;
+}
+
+.character-card:hover {
+transform: scale(1.05);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.error-text {
+color: red;
+}
+
+.pagination .page-item.active .page-link {
+background-color: #007bff;
+border-color: #007bff;
+}
+
+.pagination .page-link {
+cursor: pointer;
+}
